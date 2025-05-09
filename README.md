@@ -16,10 +16,10 @@ This is a creative and responsive static site built with HTML and CSS — deploy
 
 ## 📁 Project Structure
 
-my-first-github-webpage/
-├── index.html
-├── style.css
-└── README.md
+my-first-github-webpage/<br>
+├── index.html<br>
+├── style.css<br>
+└── README.md<br>
 
 ---
 
@@ -53,9 +53,6 @@ To deploy your own version:
 ---
 
 ## 📸 Preview
-
-> 📷 You can add a screenshot of your webpage here!  
-> Save a screenshot as `preview.png` and it will appear below:
 
 ![Webpage Preview](webpage_preview.png)
 
