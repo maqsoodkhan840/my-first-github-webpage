@@ -17,22 +17,24 @@ This is a creative and responsive static site built with HTML and CSS — deploy
 ## 📁 Project Structure
 
 my-first-github-webpage/<br>
-├── index.html<br>
-├── style.css<br>
-└── README.md<br>
+├── index.html <br>
+├── style.css <br>
+└── README.md <br>
 
 ---
 
 ## 🚀 Deployment
 
 This site is deployed using **GitHub Pages**.  
+To view the live site, visit:  
+🔗 **[https://maqsoodkhan840.github.io/my-first-github-webpage/](https://maqsoodkhan840.github.io/my-first-github-webpage/)**
+
 To deploy your own version:
 
 1. Push this repo to your GitHub account.
 2. Go to **Settings > Pages**.
 3. Under **Source**, select the branch (e.g., `main`) and folder (`/root` or `/docs` if moved).
-4. Save and wait for GitHub to publish your site at:  
-   `https://<your-username>.github.io/my-first-github-webpage/`
+4. Save and wait for GitHub to publish your site.
 
 ---
 
@@ -47,12 +49,14 @@ To deploy your own version:
 ## 📚 Learning Goals
 
 - Practice using Git and GitHub
-- Understand file tracking with `git add`, `git commit`, and `git rm --cached`
+- Understand file tracking with `git commands`
 - Deploy a simple webpage using GitHub Pages
 
 ---
 
 ## 📸 Preview
+
+**[View Live Preview](https://maqsoodkhan840.github.io/my-first-github-webpage/)**
 
 ![Webpage Preview](webpage_preview.png)
 
