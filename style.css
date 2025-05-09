@@ -6,26 +6,29 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
   color: #333;
-  line-height: 1.6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: #ffffffcc;
   text-align: center;
   padding: 2rem 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1.5s ease;
 }
 
 h1 {
-  font-size: 2.5rem;
-  color: #333;
+  font-size: 2.7rem;
+  color: #2c3e50;
+}
+
+p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
 
 main {
@@ -37,25 +40,31 @@ main {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.8rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+}
+
+.about {
+  background: linear-gradient(to top left, #ffffff, #e6f0ff);
+  border-left: 5px solid #3498db;
 }
 
 ul {
-  padding-left: 1.2rem;
+  list-style: disc;
+  padding-left: 1.5rem;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #ffffffaa;
+  background-color: #ffffffdd;
   font-size: 0.9rem;
 }
 
@@ -63,7 +72,7 @@ footer {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
   to {
     opacity: 1;
